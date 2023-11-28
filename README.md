@@ -6,7 +6,7 @@ I have done Topic modeling with BERT based sentence transformer model.
 
 
 For labeling the topic  I have used a technique named Automatic  Cluster Labeling which was first  proposed in 2021 in this paper [Research Paper -Open Intent Discovery through Unsupervised Semantic Clustering and Dependency Parsing ](https://arxiv.org/pdf/2104.12114.pdf)
-I hace concatinated most common verbs, direct objects top two noun for each text cluster for labeling the topic.
+I hace concatinated most common verbs, direct objects, top two nouns for each text cluster for labeling the topic.
 
 I used all_mpnet_basev2 as sentence transformer leveraging it's quality to map sentence and paragraphs into 768 dimesnional vector space.
 For dimensionality reduction I have used uniform manifold approximation and projection (UMAP),  as it is much faster and more scalable then other techniques it preserves global structures of data much better. 
