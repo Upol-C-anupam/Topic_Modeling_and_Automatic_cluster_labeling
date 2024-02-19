@@ -19,4 +19,4 @@ Hyperopt is used for handeling bayesian optimization for searching optimal param
 
 I have used HDBSCAN as clustering algorithm which is a density based algorithm and for this particular task it plays important role as it doesn't require specifying the number of cluster upfront and tolerates some noisey data. 
 
-I have calculated the IDF (Inverse Document Frequency) to  pay more attentionn to less common words.
+I have calculated the IDF (Inverse Document Frequency) to  pay more attention to less common words.
